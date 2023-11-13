@@ -1,8 +1,16 @@
 import logo from './logo.svg';
 import './App.scss';
-
-function App() {
-  return (
+import { MyComponent } from './Example/MyComponent';
+/**
+* có 2 loại component: class component / function component
+*                      
+*
+*
+*
+*
+*/
+const App = () => {
+  return ( //JSX
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -17,6 +25,7 @@ function App() {
         >
           Learn React
         </a>
+        <MyComponent />
       </header>
     </div>
   );
